@@ -3,6 +3,7 @@ using myGame.Code.Core.UIView;
 using myGame.Code.Gameplay;
 using myGame.Code.MainMenu;
 using myGame.Code.Services.CoroutineController;
+using myGame.Code.Settings;
 using myGame.Code.State;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,16 +18,22 @@ namespace myGame.Code.Core
         private UIRootView _uiRootView;
         private ICoroutineService _coroutines;
         private IGameStateProvider _gameStateProvider;
+        private ISettingsProvider _settingsProvider;
+
         [Inject]
-        public void Constract(ICoroutineService coroutines, IGameStateProvider stateProvider)
+        public void Constract(
+            ICoroutineService coroutines, 
+            IGameStateProvider stateProvider,
+            ISettingsProvider settingsProvider)
         {
             Application.targetFrameRate = 60;
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
             
             _coroutines = coroutines;
             _gameStateProvider = stateProvider;
+            _settingsProvider = settingsProvider;
 
-            _gameStateProvider.LoadSettingsState();
+            _gameStateProvider.LoadSettingsState(_settingsProvider.ApplicationSettings);
             _gameStateProvider.LoadGameState();
             
             var prefabUIRoot = Resources.Load<UIRootView>("UI/UIRootCanvas");
@@ -37,6 +44,7 @@ namespace myGame.Code.Core
         }
         private void RunGame()
         {
+            _settingsProvider.LoadGameSettings();
     #if UNITY_EDITOR
             var sceneName = SceneManager.GetActiveScene().name;
 
@@ -91,7 +99,7 @@ namespace myGame.Code.Core
             yield return LoadScene(Scenes.MAINMENU);
             
             var sceneEntryPoint = Object.FindFirstObjectByType<MainMenuEntryPoint>();
-            
+            yield return new WaitForSeconds(1);
             sceneEntryPoint.Run(mainMenuEnterParams).Subscribe(mainMenuExitParams =>
             {
                 var targetSceneName = mainMenuExitParams.TargetSceneEnterParams.SceneName;

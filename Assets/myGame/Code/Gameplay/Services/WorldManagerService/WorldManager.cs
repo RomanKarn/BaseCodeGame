@@ -13,18 +13,19 @@ namespace myGame.Code.Gameplay.Services.WorldManagerService
             _container = container;
         }
 
-        public TView Criate<TController, TView>(GameObject uiPrefab, Transform parent = null)  
+        public TView Criate<TController, TView>(string resourcePath, Transform parent = null)  
             where TController : WorldRootController
             where TView : WorldView<TController>
         {
+            var worldPrefab = Resources.Load<GameObject>(resourcePath);
             // Создаём экземпляр World-префаба
-            var worldInstance = _container.InstantiatePrefab(uiPrefab, parent);
+            var worldInstance = _container.InstantiatePrefab(worldPrefab, parent);
 
             // Получаем WorldView
             var worldView = worldInstance.GetComponent<TView>();
             if (worldView == null)
             {
-                Debug.LogError($"World Prefab {uiPrefab.name} does not have a component of type {typeof(TView).Name}.");
+                Debug.LogError($"World Prefab {worldPrefab.name} does not have a component of type {typeof(TView).Name}.");
                 return null;
             }
 

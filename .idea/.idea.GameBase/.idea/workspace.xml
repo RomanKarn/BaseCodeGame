@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b323f85-2477-4885-95c6-f8f4112985c6" name="Changes" comment="" />
+    <list default="true" id="9b323f85-2477-4885-95c6-f8f4112985c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Core/GameEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Core/GameEntryPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/IWorldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/IWorldManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/WorldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/WorldManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/Root.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/Root.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuEntryPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/Root.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/Root.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/UIMenu/Menu.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/UIMenu/Menu.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/CoroutinesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/CoroutinesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/IUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/IUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIRootController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIRootController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/IGameStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/IGameStateProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/PlayerPrefsGameStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/PlayerPrefsGameStateProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameStateProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameStateProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +42,14 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIPathPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/AudioController/AudioMixController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -29,7 +63,9 @@
   &quot;keyToString&quot;: {
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.30140844&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,13 +105,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11644">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11644" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -100,6 +138,9 @@
       <workItem from="1736853084574" duration="4642000" />
       <workItem from="1736909793293" duration="23617000" />
       <workItem from="1736946573153" duration="365000" />
+      <workItem from="1737024756603" duration="4665000" />
+      <workItem from="1737071541832" duration="12491000" />
+      <workItem from="1737098444862" duration="9769000" />
     </task>
     <servers />
   </component>
@@ -115,50 +156,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuEntryPoint.cs</url>
-          <line>43</line>
-          <properties documentPath="C:\Progect\UnityGame\GameBase\Assets\myGame\Code\MainMenu\MainMenuEntryPoint.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="1597" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1670" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/UIMenu/UIMenuController.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Progect\UnityGame\GameBase\Assets\myGame\Code\MainMenu\UIRoot\UIMenu\UIMenuController.cs" containingFunctionPresentation="Method 'Constract'">
-            <startOffsets>
-              <option value="391" />
-            </startOffsets>
-            <endOffsets>
-              <option value="432" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIManager.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\Progect\UnityGame\GameBase\Assets\myGame\Code\Services\UIManagerController\UIManager.cs" containingFunctionPresentation="Method 'ShowUI'">
-            <startOffsets>
-              <option value="603" />
-            </startOffsets>
-            <endOffsets>
-              <option value="621" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

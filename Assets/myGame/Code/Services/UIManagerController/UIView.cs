@@ -16,7 +16,7 @@ namespace myGame.Code.Services.UIManagerController
 
         protected virtual void OnInitialized()
         {
-            // Логика инициализации конкретного представления
+            
         }
         
         private void OnDestroy()

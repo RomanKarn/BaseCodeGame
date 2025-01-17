@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using myGame.Code.Settings;
 using myGame.Code.State.Entities.Plaer;
+using myGame.Code.State.GameResources;
 using myGame.Code.State.Root;
 using UnityEngine;
 using R3;
@@ -39,11 +42,11 @@ namespace myGame.Code.State
             return Observable.Return(GameState);
         }
 
-        public Observable<GameSettingsStateProxy> LoadSettingsState()
+        public Observable<GameSettingsStateProxy> LoadSettingsState(ApplicationSettings appSettings)
         {
             if (!PlayerPrefs.HasKey(GAME_SETTINGS_STATE_KEY))
             {
-                SettingsState = CreateGameSettingsStateFromSettings();
+                SettingsState = CreateGameSettingsStateFromSettings(appSettings);
 
                 SaveSettingsState();    // Сохраним дефолтное состояние
             }
@@ -82,9 +85,9 @@ namespace myGame.Code.State
             return Observable.Return(true);
         }
 
-        public Observable<GameSettingsStateProxy> ResetSettingsState()
+        public Observable<GameSettingsStateProxy> ResetSettingsState(ApplicationSettings appSettings)
         {
-            SettingsState = CreateGameSettingsStateFromSettings();
+            SettingsState = CreateGameSettingsStateFromSettings(appSettings);
             SaveSettingsState();
 
             return Observable.Return(SettingsState);
@@ -98,19 +101,25 @@ namespace myGame.Code.State
                 Player = new PlayerEntity()
                 {
                     Level = 0
+                }, 
+                Resources = new List<ResourceData>()
+                {
+                    new() { Amount = 0, ResourceType = ResourceType.SoftCurrency },
+                    new() { Amount = 0, ResourceType = ResourceType.HardCurrency }
                 }
+                
             };
 
             return new GameStateProxy(_gameStateOrigin);
         }
 
-        private GameSettingsStateProxy CreateGameSettingsStateFromSettings()
+        private GameSettingsStateProxy CreateGameSettingsStateFromSettings(ApplicationSettings appSettings)
         {
             // Состояние по умолчанию из настроек, мы делаем фейк
             _gameSettingsStateOrigin = new GameSettingsState()
             {
-                MusicVolume = 8,
-                SFXVolume = 8
+                MusicVolume = appSettings.MusicVolume,
+                SFXVolume = appSettings.SFXVolume
             };
 
             return new GameSettingsStateProxy(_gameSettingsStateOrigin);

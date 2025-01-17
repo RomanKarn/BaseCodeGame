@@ -13,18 +13,15 @@ namespace myGame.Code.Gameplay
         private GameEntryPoint _gameEntryPoint;
         private IUIManager _uiManager;
         private GamePlayEnterParams _gamePlayEnterParams;
-        private GameObject _menuPrefab;
 
         [Inject]
         public void Constract(
             GameEntryPoint gameEntryPoint,
-            IUIManager uiManager,
-            [Inject(Id = "RootGamePlay")] GameObject menuPrefab)
+            IUIManager uiManager)
         {
             _uiManager = uiManager;
             _gameEntryPoint = gameEntryPoint;
 
-            _menuPrefab = menuPrefab;
         }
         
         public Observable<GamePlayExitParams> Run(GamePlayEnterParams sceneEnterParams)
@@ -38,7 +35,7 @@ namespace myGame.Code.Gameplay
             var exitParams = new GamePlayExitParams(mainMenuEnterParams);
             var exitToMainMenuSceneSignal = exitSceneSignalSubj.Select(_ => exitParams);
             
-            _uiManager.ShowUI<UIGamePlayRootController, UIGamePlayRootView>(_menuPrefab, _gameEntryPoint.UIRootView.SceneContainer);
+            _uiManager.ShowUI<UIGamePlayRootController, UIGamePlayRootView>(UIPathPrefabs.UIGamePlayRoot, _gameEntryPoint.UIRootView.SceneContainer, true);
             
             return exitToMainMenuSceneSignal;
         }
