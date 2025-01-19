@@ -5,7 +5,8 @@ namespace myGame.Code.State.Root
     [Serializable]
     public class GameSettingsState
     {
-        public int MusicVolume;
-        public int SFXVolume;
+        public float MusicVolume;
+        public float SFXVolume;
+        public string LanguageLocalaze;
     }
 }

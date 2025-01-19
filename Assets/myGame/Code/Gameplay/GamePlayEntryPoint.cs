@@ -10,6 +10,8 @@ namespace myGame.Code.Gameplay
 {
     public class GamePlayEntryPoint : MonoBehaviour
     {
+        public Subject<Unit> ExitGamePlay = new Subject<Unit>();
+        
         private GameEntryPoint _gameEntryPoint;
         private IUIManager _uiManager;
         private GamePlayEnterParams _gamePlayEnterParams;
@@ -33,7 +35,7 @@ namespace myGame.Code.Gameplay
             var mainMenuEnterParams = new MainMenuEnterParams(10);
             
             var exitParams = new GamePlayExitParams(mainMenuEnterParams);
-            var exitToMainMenuSceneSignal = exitSceneSignalSubj.Select(_ => exitParams);
+            var exitToMainMenuSceneSignal = ExitGamePlay.Select(_ => exitParams);
             
             _uiManager.ShowUI<UIGamePlayRootController, UIGamePlayRootView>(UIPathPrefabs.UIGamePlayRoot, _gameEntryPoint.UIRootView.SceneContainer, true);
             

@@ -56,6 +56,7 @@ namespace myGame.Code.State
                 var json = PlayerPrefs.GetString(GAME_SETTINGS_STATE_KEY);
                 _gameSettingsStateOrigin = JsonUtility.FromJson<GameSettingsState>(json);
                 SettingsState = new GameSettingsStateProxy(_gameSettingsStateOrigin);
+                Debug.Log("Settings State loaded: " + json);
             }
 
             return Observable.Return(SettingsState);
@@ -119,7 +120,8 @@ namespace myGame.Code.State
             _gameSettingsStateOrigin = new GameSettingsState()
             {
                 MusicVolume = appSettings.MusicVolume,
-                SFXVolume = appSettings.SFXVolume
+                SFXVolume = appSettings.SFXVolume,
+                LanguageLocalaze = appSettings.LanguageLocalaze
             };
 
             return new GameSettingsStateProxy(_gameSettingsStateOrigin);

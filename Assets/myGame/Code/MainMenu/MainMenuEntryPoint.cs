@@ -30,7 +30,7 @@ namespace myGame.Code.MainMenu
         {
             _mainMenuEnterParams = sceneEnterParams;
            
-            var gamePlayEnterParams = new GamePlayEnterParams(10);
+            var gamePlayEnterParams = new GamePlayEnterParams();
             var exitParams = new MainMenuExitParams(gamePlayEnterParams);
             var exitToGamePlaySceneSignal = ExitMainMenu.Select(_ => exitParams);
  

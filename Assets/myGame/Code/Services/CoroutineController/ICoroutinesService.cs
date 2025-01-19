@@ -7,6 +7,8 @@ namespace myGame.Code.Services.CoroutineController
     {
         Coroutine StartTrackedCoroutine(IEnumerator routine);
         void StopAllTrackedCoroutines();
+        public void PauseAllCoroutines();
+        public void ResumeAllCoroutines();
     }
 }
 

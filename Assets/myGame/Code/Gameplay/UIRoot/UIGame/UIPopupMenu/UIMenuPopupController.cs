@@ -13,12 +13,15 @@ namespace myGame.Code.Gameplay.UIRoot.UIGame.UIPopupMenu
     public class UIMenuPopupController : UIRootController
     {
         private IUIManager _uiManager;
+        private GamePlayEntryPoint _gamePlayExitPoint;
         public ObservableList<ResourceTracker>  ResourceTrackers { get; private set; } = new ObservableList<ResourceTracker>();
         
         [Inject]
         private void Constract(
+            GamePlayEntryPoint gamePlayExitPoint,
             IUIManager uiManager)
         {
+            _gamePlayExitPoint = gamePlayExitPoint;
             _uiManager = uiManager;
         }
         public override void Initialize<T>(T objectToInject)
@@ -41,6 +44,10 @@ namespace myGame.Code.Gameplay.UIRoot.UIGame.UIPopupMenu
             });
         }
 
+        public void ExitGamePlay()
+        {
+            _gamePlayExitPoint.ExitGamePlay.OnNext(Unit.Default);
+        }
         private void CreateVeiwRes(ResourceType type, Transform parent)
         {
             _uiManager.ShowUI<UIResourceController, UIResourceView, Observable<int>>(

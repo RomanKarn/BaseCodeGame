@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicVolume: 5
   SFXVolume: 5
+  LanguageLocalaze: Russian

@@ -1,5 +1,9 @@
+using myGame.Code.Services.Analytic;
+using myGame.Code.Services.AudioController;
 using myGame.Code.Services.CoroutineController;
-using myGame.Code.Services.UIManagerController;
+using myGame.Code.Services.GamePlayAndStop;
+using myGame.Code.Services.LanguageLocalaze;
+using myGame.Code.Services.SDKYandex;
 using myGame.Code.Settings;
 using myGame.Code.State;
 using UnityEngine;
@@ -19,7 +23,12 @@ namespace myGame.Code.Core
             Container.Bind<ICoroutineService>().FromInstance(coroutineService).AsSingle();
             Container.Bind<ISettingsProvider>().To<SettingsProvider>().AsSingle();
             Container.Bind<IGameStateProvider>().To<PlayerPrefsGameStateProvider>().AsSingle();
+            Container.Bind<IGamePlayAndStopSerice>().To<GamePlayAndStopSerice>().AsSingle();
+            Container.Bind<ILanguageLocalazeServices>().To<LanguageLocalazeServices>().AsSingle();
+            Container.Bind<IAudioService>().To<AudioService>().FromNewComponentOnNewGameObject().AsSingle();
             
+            Container.Bind<IAnalyticsService>().To<YandexAnalytics>().AsSingle();
+            Container.Bind<ISDK>().To<YandexSdk>().FromNewComponentOnNewGameObject().AsSingle();
             
             Container.Bind<GameEntryPoint>().AsSingle().NonLazy();
             

@@ -6,33 +6,93 @@
   <component name="ChangeListManager">
     <list default="true" id="9b323f85-2477-4885-95c6-f8f4112985c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/LICENSE.TXT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/System.Runtime.CompilerServices.Unsafe.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/System.Runtime.CompilerServices.Unsafe.nuspec.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/THIRD-PARTY-NOTICES.TXT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp2.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/LICENSE.TXT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/PACKAGE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/PACKAGE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/System.Threading.Channels.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/System.Threading.Channels.nuspec.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/THIRD-PARTY-NOTICES.TXT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net461.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net461/System.Threading.Channels.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net461/System.Threading.Channels.targets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net462.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net462/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net462/_._.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net6.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net6.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/net6.0/_._.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/netcoreapp2.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/netcoreapp2.0/System.Threading.Channels.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/buildTransitive/netcoreapp2.0/System.Threading.Channels.targets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/useSharedDesignerContext.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Core/GameEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Core/GameEntryPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEnterParams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEnterParams.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/IWorldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/IWorldManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/WorldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/Services/WorldManagerService/WorldManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/Root.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/Root.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGame/UIPopupMenu/UIMenuPopupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGame/UIPopupMenu/UIMenuPopupController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGame/UIPopupMenu/UIMenuPopupVeiw.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGame/UIPopupMenu/UIMenuPopupVeiw.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Gameplay/UIRoot/UIGamePlayRootView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuEntryPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/MainMenuInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/Root.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/Root.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/UIMenu/Menu.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/MainMenu/UIRoot/UIMenu/Menu.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/CoroutinesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/CoroutinesService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/IUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/IUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIRootController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIRootController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/IGameStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/IGameStateProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/ICoroutinesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Services/CoroutineController/ICoroutinesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/Settings/ApplicationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/Settings/ApplicationSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/PlayerPrefsGameStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/PlayerPrefsGameStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameStateProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameStateProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameSettingsState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameSettingsState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameSettingsStateProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Code/State/Root/GameSettingsStateProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Resources/Settings/ApplicationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Resources/Settings/ApplicationSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Resources/UI/GamePlay/Root.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Resources/UI/GamePlay/Root.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Resources/UI/GamePlay/UIMenuPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Resources/UI/GamePlay/UIMenuPopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myGame/Scenes/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/myGame/Scenes/New Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/packages.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +109,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Core/GlobalInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Gameplay/GamePlayEntryPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/myGame/Code/Services/UIManagerController/UIPathPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Assets/SimpleLocalization/Example.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/Analitic/AnalyticsManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/Analitic/IAnalytics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/Analitic/ISdkYandex.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/Analitic/YandexAnalytics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/AudioController/AudioMixController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/AudioController/FactoryAudio.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/GameController/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/GameStartPoint/GameStartPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SurvivalOnTrain/Assets/Code/Core.Unity/Leaderboard/Leaderboards.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -105,15 +174,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11644">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="11644" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -141,6 +208,13 @@
       <workItem from="1737024756603" duration="4665000" />
       <workItem from="1737071541832" duration="12491000" />
       <workItem from="1737098444862" duration="9769000" />
+      <workItem from="1737110976481" duration="1479000" />
+      <workItem from="1737112618329" duration="2663000" />
+      <workItem from="1737165849476" duration="2440000" />
+      <workItem from="1737168328257" duration="4388000" />
+      <workItem from="1737195225218" duration="2374000" />
+      <workItem from="1737254745956" duration="2096000" />
+      <workItem from="1737256898538" duration="5936000" />
     </task>
     <servers />
   </component>

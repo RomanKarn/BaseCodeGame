@@ -7,5 +7,6 @@ namespace myGame.Code.Settings
     {
           public int MusicVolume;
           public int SFXVolume;
+          public string LanguageLocalaze;
     }
 }

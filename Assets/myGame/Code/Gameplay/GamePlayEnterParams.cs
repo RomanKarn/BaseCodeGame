@@ -7,10 +7,10 @@ namespace myGame.Code.Gameplay
 {
     public class GamePlayEnterParams : SceneEnterParams
     {
-        public int Lavel;
-        public GamePlayEnterParams(int collButton) : base(Scenes.GAMEPLAY)
+        
+        public GamePlayEnterParams() : base(Scenes.GAMEPLAY)
         {
-            Lavel = collButton;
+            
         }
 
     }

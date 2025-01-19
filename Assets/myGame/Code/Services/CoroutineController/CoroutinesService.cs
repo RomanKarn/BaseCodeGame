@@ -9,6 +9,7 @@ namespace myGame.Code.Services.CoroutineController
     {
         private GameObject _instens;
         private readonly Dictionary<IEnumerator, Coroutine> _activeCoroutines = new Dictionary<IEnumerator, Coroutine>();
+        private bool _isPaused;
 
         public Coroutine StartTrackedCoroutine(IEnumerator routine)
         {
@@ -33,47 +34,28 @@ namespace myGame.Code.Services.CoroutineController
             }
             _activeCoroutines.Clear();
         }
+        public void PauseAllCoroutines()
+        {
+            _isPaused = true;
+        }
 
+        public void ResumeAllCoroutines()
+        {
+            _isPaused = false;
+        }
         private IEnumerator TrackCoroutine(IEnumerator routine)
         {
-            yield return StartCoroutine(routine); // Ожидаем завершения
-            _activeCoroutines.Remove(routine); // Удаляем из списка
-        }
-
-    }
-    
-    public class CoroutinesServiceNew : MonoBehaviour , ICoroutineService
-    {
-        private GameObject _instens;
-        private readonly Dictionary<IEnumerator, Coroutine> _activeCoroutines = new Dictionary<IEnumerator, Coroutine>();
-
-        public Coroutine StartTrackedCoroutine(IEnumerator routine)
-        {
-            Coroutine coroutine = StartCoroutine(routine);
-            if (coroutine != null)
+            while (routine.MoveNext())
             {
-                _activeCoroutines[routine] = coroutine;
-            }
-            else
-            {
-                Debug.LogError("Coroutine could not be started. Check the context or object state.");
-            }
-            return coroutine;
-        }
+                if (_isPaused) 
+                {
+                    yield return null;
+                    continue; 
+                }
 
-        public void StopAllTrackedCoroutines()
-        {
-            foreach (var pair in _activeCoroutines)
-            {
-                StopCoroutine(pair.Value);
+                yield return routine.Current; 
             }
-            _activeCoroutines.Clear();
-        }
-
-        private IEnumerator TrackCoroutine(IEnumerator routine)
-        {
-            yield return StartCoroutine(routine); // Ожидаем завершения
-            _activeCoroutines.Remove(routine); // Удаляем из списка
+            _activeCoroutines.Remove(routine); 
         }
 
     }

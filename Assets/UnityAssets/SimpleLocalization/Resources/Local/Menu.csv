@@ -1,0 +1,31 @@
+Key,Russian,English,Turkish
+MENU_START_GAME,Играть,Play,Oyun
+MENU_OPTIONS,Настройки,Settings,Ayarlar
+MENU_EXIT,Выйти,Exit,Çıkış
+OPTIONS_SOUND,Звуки,Sounds,Sesler
+OPTIONS_MUSIC,Музыка,Music,Müzik
+OPTIONS_LANG,Язык,Language,Dil
+Russian,Русский,Русский,Русский
+English,English,English,English
+END_GAME,"Мне нужно передохнуть прежде, чем продолжить путь",I need a break before I continue.,Devam etmeden önce bir molaya ihtiyacım var.
+END_GAME_BUTTON,Отдохнуть,Rest time,Dinlenme zamanı
+ADD_LIFE_ADS,Вернитесь из тьмы! Получите 3 жизни и продолжайте исследовать подземелье!,You will get 3 extra lives!,3 ekstra can kazanacaksınız!
+GAME_FINAL,"Спасибо за прохождение игры. 
+Пожалуйста напишите, что вам понравилось и не понравилось, а также то что вы хоте ли бы увидеть в игре.","Thank you for the walkthrough. 
+Please write what you liked and disliked and what you would like to see in the game.","İzlenecek yol için teşekkürler. 
+Lütfen beğendiklerinizi, beğenmediklerinizi ve oyunda görmek istediklerinizi yazın."
+RATE_GAME,"Оцените игру, пожалуйста, если вы не сделали этого раньше.",Please rate the game if you haven't already.,Henüz yapmadıysanız lütfen oyuna puan verin.
+RATE_COMMENT,Комментарий (не обязательно),Comment (optional),Yorum (isteğe bağlı)
+RATE_SEND,Оценить,Send,Gönder
+BEST_RESULT_COIN,Лучший результат,Best score,En iyi skor
+ERROR_RESTART,Произошла ошибка - перезапустите игру.,An error has occurred - restart the game.,Bir hata oluştu - oyunu yeniden başlatın.
+ERROR_RESTART_BUTTON,Перезапустить.,Restart.,Yeniden başlat.
+NEW_LEVEL_LABEL,"С каждым шагом вниз, тьма все крепче сжимает твою душу...","With every step down, the darkness grips your soul tighter and tighter....",Her adımda karanlık ruhunuzu daha sıkı ve daha sıkı kavrar....
+NEW_LEVEL_BUTTON,Спуститься ниже,Go deeper,Daha derine inin
+STAY_LAVEL,Остаться на уровне,Stay level,Seviyede kal
+NEED_AUTF,Чтобы внести свое имя в список нужна авторизация,You need authorization to put your name on the list ,Adınızı listeye eklemek için yetkilendirilmeniz gerekir
+AUTF,Авторизация,Authorization,Yetkilendirme
+TOP_IDIANA,"Топ 5 
+лучших исследователей ","Top 5 
+top researchers ","İlk 5 
+üst düzey araştırmacılar "
